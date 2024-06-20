@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+:root {
+    --primary-color:#EBE5CA;
+    --secondary-color:#77A49D;
+    --accent1-color:#113C4F;
+    --accent2-color:#8EC41E;
+
+    --heading-font: 'Unica One', serif;
+    --paragraph-font: 'Comfortaa', serif;
+    --navigation-background-color: #77A49D;
+    --navigation-link-color: #4B1D3F;
+    --navigation-hover-link-color: #D1BCE3;
+    --navigation-hover-background-color: #79A9D1;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    padding: 50px;
+    background-color: #EBE5CA;
+
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: wavy;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--navigation-hover-link-color);
+
+
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+p {
+    padding: 20;
+}
