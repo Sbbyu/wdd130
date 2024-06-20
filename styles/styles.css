@@ -32,12 +32,12 @@ p {
 }
 
 aside {
-    width: ;
-    margin: ;
-    border: ;
-    padding: ;
-    background-color: ;
-    color: ;
+    width: 15rem;
+    margin: 4rem;
+    border:2px solid rgba(red, green, blue, .5) ;
+    padding: 5px;
+    background-color: rgb(252, 244, 236);
+    color: purple;
     text-align: center;
 }
 
