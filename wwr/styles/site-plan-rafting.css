@@ -10,10 +10,10 @@
 
     --heading-font: 'Unica One', serif;
     --paragraph-font: 'Comfortaa', serif;
-    --navigation-background-color: #77A49D;
-    --navigation-link-color: #4B1D3F;
-    --navigation-hover-link-color: #D1BCE3;
-    --navigation-hover-background-color: #79A9D1;
+    --nav-background-color: #77A49D;
+    --nav-link-color: #4B1D3F;
+    --nav-hover-link-color: #D1BCE3;
+    --nav-hover-background-color: #79A9D1;
 }
 
 body {
@@ -29,27 +29,27 @@ header {
 }
 
 nav {
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
     text-decoration: wavy;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--navigation-hover-link-color);
+    color: var(--nav-hover-link-color);
 
 
 }
 
 nav a:hover {
-    color: var(--navigation-hover-link-color);
-    background-color: var(--navigation-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 h1,h2,h3,h4,h5,h6 {
