@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Unica+One&display=swap');
+
+:root {
+    --primary-color:#EBE5CA;
+    --secondary-color:#77A49D;
+    --accent1-color:#113C4F;
+    --accent2-color:#8EC41E;
+
+    --heading-font: 'Unica One', serif;
+    --paragraph-font: 'Comfortaa', serif;
+    --nav-background-color: #77A49D;
+    --nav-link-color: #4B1D3F;
+    --nav-hover-link-color: #D1BCE3;
+    --nav-hover-background-color: #79A9D1;
+}
+
+div {
+    position: relative;
+}
+
+
+.hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+
+h1{
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+
+h2{
+
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+article {
+    width: 50%;
+    position: absolute;
+    background-color: var(--primary-color);
+
+}
+
+article img{
+    float: right;
+}
+
+p {
+    width: 50%;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+
+
+}
+
+
+footer {
+
+
+}
