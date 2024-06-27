@@ -46,7 +46,7 @@ p {
 
 
 article {
-    position:absolute;
+    position: absolute;
     background-color: var(--primary-color);
     margin: 0px;
     z-index: 2;
@@ -59,7 +59,7 @@ article img{
 
 }
 
-.hero {
+.hero div{
     position: relative;
 }
 
