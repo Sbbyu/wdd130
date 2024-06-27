@@ -19,45 +19,52 @@ h1{
     position: absolute;
     font-family: var(--heading-font);
     color: var(--primary-color);
-
-
+    z-index: 1;
 
 }
 
 h2{
-
+    margin: 20px;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 p {
-
+    padding: 20px;
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
-
-
 }
 
-.hero div{
-    position: relative;
-}
 
 .hero img{
+
     width: 100%;
     display: block;
     height: auto;
-
+    object-fit: cover;
 }
 
-article {
 
-    position: absolute;
+article {
+    position:absolute;
     background-color: var(--primary-color);
+    margin: 0px;
+    z-index: 2;
 
 }
 
 article img{
 
     float: right;
+
+}
+
+.hero {
+    position: relative;
+}
+
+footer {
+
+    text-decoration: none;
 }
 
