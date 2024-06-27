@@ -15,22 +15,12 @@
     --nav-hover-background-color: #79A9D1;
 }
 
-div {
-    position: relative;
-}
-
-
-.hero img {
-    width: 100%;
-    display: block;
-    height: auto;
-}
-
-
 h1{
     position: absolute;
     font-family: var(--heading-font);
     color: var(--primary-color);
+
+
 
 }
 
@@ -40,27 +30,34 @@ h2{
     color: var(--primary-color);
 }
 
-article {
-    width: 50%;
-    position: absolute;
-    background-color: var(--primary-color);
-
-}
-
-article img{
-    float: right;
-}
-
 p {
-    width: 50%;
+
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
 
 
 }
 
+.hero div{
+    position: relative;
+}
 
-footer {
-
+.hero img{
+    width: 100%;
+    display: block;
+    height: auto;
 
 }
+
+article {
+
+    position: absolute;
+    background-color: var(--primary-color);
+
+}
+
+article img{
+
+    float: right;
+}
+
