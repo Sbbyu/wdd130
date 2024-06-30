@@ -42,7 +42,7 @@ article p {
 p {
     padding: 10px;
     font-family: var(--paragraph-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 
