@@ -32,10 +32,17 @@ h2{
     color: var(--secondary-color);
 }
 
-p {
+article p {
     padding: 10px;
     font-family: var(--paragraph-font);
     color: var(--primary-color);
+}
+
+
+p {
+    padding: 10px;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
 }
 
 
