@@ -6,6 +6,7 @@
     --secondary-color:#77A49D;
     --accent1-color:#113C4F;
     --accent2-color:#8EC41E;
+    --accent3-color:#c0c7a7;
 
     --heading-font: 'Unica One', serif;
     --paragraph-font: 'Comfortaa', serif;
@@ -35,8 +36,16 @@ h2{
 article p {
     padding: 10px;
     font-family: var(--paragraph-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
+
+/* article h2 {
+
+    margin: 20px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+} */
 
 
 p {
@@ -57,7 +66,7 @@ p {
 
 .hero article {
     position: absolute;
-    background-color: var(--secondary-color);
+    background-color: var(--accent3-color);
     float: right;
     width: 500px;
     top: 180px;
