@@ -74,7 +74,7 @@ aside img {
     opacity: 25%;
 }
 
-.grid, header, footer {
+header, footer, .grid  {
     display: flex;
     justify-content: center;
     align-content: center;
