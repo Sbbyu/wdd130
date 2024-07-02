@@ -55,6 +55,19 @@ p {
 }
 
 
+header img{
+    width: 100px;
+    height: auto;
+}
+
+footer {
+
+    text-decoration: none;
+}
+
+
+/* Class rules */
+
 .hero img{
 
     width: 100%;
@@ -89,15 +102,6 @@ p {
 
 }
 
-header img{
-    width: 100px;
-    height: auto;
-}
-
-footer {
-
-    text-decoration: none;
-}
 
 .contents {
 
