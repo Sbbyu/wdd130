@@ -102,6 +102,10 @@ aside img {
 footer {
     border-top: 4px solid gainsboro ;
 }
+
+ul {
+    text-align: left;
+}
 /* Class Selectors */
 
 .box {
