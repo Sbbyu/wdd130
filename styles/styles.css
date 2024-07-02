@@ -1,18 +1,4 @@
-/* 
-:root {
-    --primary-color:#4682B4;
-    --secondary-color:#CAD2C5;
-    --accent1-color:#84A98C;
-    --accent2-color:#392F5A;
-    --accent3-color:#363636;
-    --accent4-color:#242F40;
 
-
-    --nav-background-color: #4682B4;
-    --nav-link-color: #3C5A14;
-    --nav-hover-link-color: #11270B;
-    --nav-hover-background-color: #3B2C35;
-} */
 
 * {
     margin: 0;
@@ -31,7 +17,7 @@ nav {
     display:flex;
     justify-content: space-evenly;
     align-content: center;
-    background-color: steelblue;
+    background-color: slateblue;
     padding: 10px
 }
 
@@ -47,7 +33,7 @@ nav a {
 
 
 h1 {
-    color: steelblue;
+    color: slateblue;
     border-bottom: solid 2pt ;
     padding: 5px;
 }
@@ -56,7 +42,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid slateblue;
     padding: 2px;
     margin: 30px;
     box-shadow: 0 0 30px gray;
