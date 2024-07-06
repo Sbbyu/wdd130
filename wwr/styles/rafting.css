@@ -11,9 +11,10 @@
     --heading-font: 'Unica One', serif;
     --paragraph-font: 'Comfortaa', serif;
     --nav-background-color: #77A49D;
-    --nav-link-color: #52154E;
+    --nav-link-color: #1D0B19;
     --nav-hover-link-color: #D1BCE3;
     --nav-hover-background-color: #79A9D1;
+    --nav-visited-link-color: #070306;
 }
 
 /* body{
@@ -93,6 +94,10 @@ a:hover {
 
 
 }
+
+a:visited {
+    color: var(--nav-visited-link-color);
+  }
 
 
 header img{
