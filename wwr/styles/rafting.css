@@ -11,7 +11,7 @@
     --heading-font: 'Unica One', serif;
     --paragraph-font: 'Comfortaa', serif;
     --nav-background-color: #77A49D;
-    --nav-link-color: #4B1D3F;
+    --nav-link-color: #52154E;
     --nav-hover-link-color: #D1BCE3;
     --nav-hover-background-color: #79A9D1;
 }
@@ -65,7 +65,7 @@ header {
     grid-template-columns: 2fr 3fr;
     justify-content: center;
     align-content: center;
-    justify-items: space-evenly;
+    justify-items: stretch;
     align-items: center;
     background-color: var(--primary-color);
 }
@@ -75,6 +75,7 @@ nav {
     padding: 25px;
     text-decoration: none;
     font-family: var(--heading-font);
+    font-weight: 800;
     
 
 }
@@ -217,14 +218,14 @@ figure{
 }
 
 .history p {
-    grid-column: 1/2 3/4;
+    grid-column: 1/2;
     grid-row: 2;
 
 
 
 }
 
-.paragraph-2 {
+.history .paragraph-2 {
     grid-column: 3/4;
     grid-row: 2;
 
@@ -234,8 +235,8 @@ figure{
 
 .history img {
     grid-column: 2/3;
-    display: block;
-    float: center;
+    /* display: block; */
+    /* float: center; */
     width: 430px ;
     height: auto;
 }
