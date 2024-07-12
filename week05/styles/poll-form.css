@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}
+
+
+
+header {
+    margin: 0;
+    width: 500; 
+
+}
+
+h1{
+    margin: 1rem;
+    font-size: 3rem;
+    color: steelblue;
+    text-align: center;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    background-color: ghostwhite;
+    font-family: Arial;
+    text-align: center;
+    width: 350px;
+    margin: 20px;
+    padding: 1rem;
+    border: dotted dodgerblue;
+    border-radius: 20px;
+}
+fieldset{
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    margin: .5rem;
+    padding: 10px;
+    border: solid 2px steelblue;
+    border-radius: 20px;
+    
+
+}
+
+
+
+label {
+    margin: 0;
+    padding: ;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+
+
+input[checkbox] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+
+
+}
+
+button {
+    margin: 1rem;
+    background-color: steelblue;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    padding: .75rem;
+    font-size: 1rem;
+
+
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  width: 150px;
+  font-size: larger;
+  padding: 10px;
+
+}
+
+legend {
+    font-weight: bolder;
+    font-size: large;
+    color: steelblue;
+    
+}
+
+footer {
+    text-align:center;
+    font-weight: bold;
+}
+
+/* class selectors */
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 50px;
+
+
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: 10px;
+
+}

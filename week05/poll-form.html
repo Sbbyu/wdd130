@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "author" content = "Stacie Brooke">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <meta name="description" content="Poll Form">
+
     <title>WDD 130 | HTML Form - User Poll</title>
 </head>
 <body>
@@ -21,24 +24,33 @@
                 <legend>
                     Contact Information
                 </legend>
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname">
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2"> 
                 <label for="useremail">Email</label>
                 <input type="email" name="useremail" id="useremail">
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend>
                     Questions
                 </legend>
+                <div class="form-item">
+                <div class="form-item">
                 <label for="browser">What is your favorite browser?</label>
                 <select name="browser" id="browser" size="3">
                     <option value="chrome">Chrome</option>
                     <option value="edge">Edge</option>
                     <option value="firefox">Firefox</option>
                 </select>
+                </div>
+                <div class="form-item">
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" name="pet" id="pet">
+                </div>
                 <label for="places">List the places you have lived:</label>
                 <textarea name="places" id="places" placeholder="United States, Canada, Japan"></textarea>
             </fieldset>
