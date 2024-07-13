@@ -45,13 +45,7 @@ article p {
     color: var(--accent1-color);
 }
 
-/* article h2 {
 
-    margin: 20px;
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-
-} */
 
 
 p {
@@ -137,7 +131,7 @@ footer a:link {
 
 footer p {
     grid-column: 1/2;
-justify-self: right;
+    justify-self: right;
     text-align: right;
 }
 
@@ -148,9 +142,10 @@ figure{
 
 iframe{
     justify-self: start;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     background-color: #8EC41E;
+    margin: 0 20px;
 
 }
 
@@ -243,11 +238,7 @@ section {
     grid-template-rows: 8% .5fr 1fr;
   }
 
-section p{
-    grid-row: 2/3;
-    grid-column: 1/2;
-    padding: 0px;
-  }
+
 
 section h2{
     grid-row: 1/2;
@@ -468,5 +459,19 @@ section iframe{
 }
 .employees img{
     border-radius: 20px;
+}
+
+.contact-wireframe {
+    grid-column: 1/2;
+    justify-self: left;
+    font-size: xx-large;
+    font-family: var(--heading-font);
+
+}
+
+.contact-info {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 20px;
 }
 
