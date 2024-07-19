@@ -623,3 +623,16 @@ th {
     grid-template-rows: 8% .1fr;
 
 }
+
+.newletter-img div{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    width: 100%;
+    background-color: var(--accent2-color);
+}
+
+.newletter-img img{
+    display: block;
+    width: 1290px;
+    height: auto;
+}
